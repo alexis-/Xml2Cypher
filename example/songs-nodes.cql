@@ -1,0 +1,12 @@
+CREATE (:Song{id: 1, title: "Comfortably numb"});
+CREATE (:Artist{id: 1, name: "Pink Floyd"});
+MERGE (:Tag{id: 1, name: "rock"});
+MERGE (:Tag{id: 2, name: "alternative"});
+CREATE (:Song{id: 2, title: "Again"});
+CREATE (:Artist{id: 2, name: "Archive"});
+MERGE (:Tag{id: 3, name: "trip-hop"});
+MERGE (:Tag{id: 4, name: "alternative"});
+CREATE (:Song{id: 3, title: "Collapse / Collide"});
+CREATE (:Artist{id: 3, name: "Archive"});
+MERGE (:Tag{id: 5, name: "trip-hop"});
+MERGE (:Tag{id: 6, name: "alternative"});

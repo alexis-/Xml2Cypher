@@ -1,0 +1,10 @@
+structures:
+  :songs()
+    Song:song(id:->id, title:title->string, :#{parseTags, tags:@tags->string}->idem as Tags)[]
+      Artist:artist(id:->id, name:_->string)
+        Artist(id:${ArtistId}->id)-[AUTHORED()]->Song(id:${SongId}->id)
+      Tag:${Tags}(id:->id, name:_->string)[]@MERGE
+        Song(id:${SongId}->id)-[HAS_TAG()]->Tag(id:${TagId}->id)
+      
+schema:
+  :songs()->songs()
