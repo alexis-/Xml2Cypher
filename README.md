@@ -36,8 +36,8 @@ If this is useful to you, feel free to drop a message in the issues or at my ema
 
 ### Schema language syntax
 
-```
-<root> ::=                <mode> | <mode> <root>
+```EBNF
+root =                mode | mode, root ;
 <mode> ::=                <type_mode> | <structure_mode> | <schema_mode> | <comment>
 
 <type_mode> ::=           "types:" NEWLINE [INDENT <type_list> DEDENT]
