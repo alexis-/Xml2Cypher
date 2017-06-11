@@ -10,6 +10,13 @@ Sample usage of this tool can be seen here:
 
 If this is useful to you, feel free to drop a message in the issues or at my email. I'd be glad to know about your project !
 
+### Table of content
+1. [Features](#features)
+2. [Usage](#usage)
+3. [Schema language syntax](#schema-language-syntax)
+4. [Example](#example)
+5. [Debugging](#debugging)
+
 ### Features
 - Handles simple and complex scenarios
 - Syntax and XML Processing debugging
