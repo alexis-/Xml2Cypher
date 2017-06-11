@@ -24,7 +24,7 @@ If this is useful to you, feel free to drop a message in the issues or at my ema
 - Download X2C
 - Install dependency: ```pip install xmltodict```
 - Create schema and python module
-- Run
+- Run module
 - Import in Neo4j using ```neo4j-shell -file <file>```
 
 ### Schema language syntax
@@ -223,7 +223,7 @@ CREATE (Artist28c7f06b05f12aacda482ab8357af7ba)-[:AUTHORED]->(Song28c7f06b05f12a
 [...]
 ```
 
-For a more complex example, have a look at [CAPEC graph](http://github.com)
+For a more complex example, have a look at [CAPEC graph](https://github.com/alexis-/Capec2Neo4j)
 
 ### Debugging
 X2C is bundled with augmented debug and processing information which helps identifying and fixing schema (or code !) issues.
