@@ -32,7 +32,7 @@ If this is useful to you, feel free to drop a message in the issues or at my ema
 - Install dependency: ```pip install xmltodict```
 - Create schema and python module
 - Run module
-- Import in Neo4j using ```neo4j-shell -file <file>```
+- Import generated *.cql in Neo4j using ```neo4j-shell -file <file>```
 
 ### Schema language syntax
 
